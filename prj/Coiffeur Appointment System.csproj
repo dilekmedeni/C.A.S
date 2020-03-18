@@ -67,17 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="infoPage.aspx" />
     <Content Include="MainCss.css" />
     <Content Include="MainPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="deneme1.Master.cs">
-      <DependentUpon>deneme1.Master</DependentUpon>
+    <Compile Include="infoPage.aspx.cs">
+      <DependentUpon>infoPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="deneme1.Master.designer.cs">
-      <DependentUpon>deneme1.Master</DependentUpon>
+    <Compile Include="infoPage.aspx.designer.cs">
+      <DependentUpon>infoPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="MainPage.aspx.cs">
       <DependentUpon>MainPage.aspx</DependentUpon>
@@ -94,11 +95,18 @@
     <Compile Include="User.Master.designer.cs">
       <DependentUpon>User.Master</DependentUpon>
     </Compile>
+    <Compile Include="UserNonFilter.Master.cs">
+      <DependentUpon>UserNonFilter.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserNonFilter.Master.designer.cs">
+      <DependentUpon>UserNonFilter.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="deneme1.Master" />
     <None Include="packages.config" />
     <Content Include="User.Master" />
+    <Content Include="UserNonFilter.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
