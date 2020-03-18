@@ -17,6 +17,14 @@
     float:left;
 }
 
+.navinfo {
+    width: 77%;
+    height: 35px;
+    background-color: #403B3B;
+    margin-top: 150px;
+    margin-left: 310px;
+}
+
 .filter {
     width: 13%;
     height: 500px;
@@ -32,5 +40,14 @@
     background-color: forestgreen;
     margin-top:   50px;
     margin-left: 50px;
+    float: left;
+}
+
+.list2 {
+    width: 77%;
+    height: 650px;
+    background-color: forestgreen;
+    margin-top: 35px;
+    margin-left: 310px;
     float: left;
 }
