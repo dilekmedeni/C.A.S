@@ -1,1 +1,0 @@
-CAS'a hosgeldiniz
