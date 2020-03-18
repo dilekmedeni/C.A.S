@@ -1,0 +1,36 @@
+﻿.title {
+    font-family: Garamond;
+    font-size: 35px;
+    color: #110505;
+    width: 10px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 19px;
+}
+
+.nav {
+    width: 1200px;
+    height: 40px;
+    background-color: #403B3B;
+    margin-top: 60px;
+    margin-left: 310px;
+    float:left;
+}
+
+.filter {
+    width: 13%;
+    height: 500px;
+    background-color: orangered;
+    margin-top: 100px;
+    margin-left:-20px;
+    float: left;
+}
+
+.list {
+    width: 77%;
+    height: 730px;
+    background-color: forestgreen;
+    margin-top:   50px;
+    margin-left: 50px;
+    float: left;
+}
