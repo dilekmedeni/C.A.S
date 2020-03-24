@@ -18,14 +18,17 @@
         
         <div style="width:100%; height:10%">
             <div class="title">Coiffeur Appointment System</div>
-            <div class="nav"></div>
+            <div class="nav"><asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            </asp:ContentPlaceHolder></div>
         </div>
 
         <div style="width:1500px; height: 20px"></div>
 
         <div style ="width:90%; height: 100%">
-            <div class="list2"></div>
-            <div class="navinfo"></div>
+            <div class="list2"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder></div>
+            <div class="navinfo"><asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder></div>
         </div>
         
     </form>
