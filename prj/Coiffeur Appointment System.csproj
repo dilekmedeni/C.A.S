@@ -70,6 +70,7 @@
     <Content Include="infoPage.aspx" />
     <Content Include="MainCss.css" />
     <Content Include="MainPage.aspx" />
+    <Content Include="ProcedurePage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +87,13 @@
     </Compile>
     <Compile Include="MainPage.aspx.designer.cs">
       <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProcedurePage.aspx.cs">
+      <DependentUpon>ProcedurePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProcedurePage.aspx.designer.cs">
+      <DependentUpon>ProcedurePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.Master.cs">
