@@ -18,11 +18,10 @@
 }
 
 .navinfo {
-    width: 77%;
+    width: 100%;
     height: 35px;
     background-color: #403B3B;
-    margin-top: 150px;
-    margin-left: 19%;
+    
 }
 
 .filter {
