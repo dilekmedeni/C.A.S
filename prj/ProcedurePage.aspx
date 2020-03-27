@@ -51,7 +51,7 @@
         </tr>
     </table>
 
-    <asp:DataList ID="DataList1" runat="server" Width="1100px">
+    <asp:DataList ID="DataList1" runat="server" Width="1100px" OnSelectedIndexChanged="DataList1_SelectedIndexChanged">
         <ItemTemplate>
             <table class="auto-style1">
                 <tr>

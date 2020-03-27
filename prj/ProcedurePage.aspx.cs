@@ -19,22 +19,27 @@ namespace Coiffeur_Appointment_System
           /*  DataList1.DataSource = baglanti();
             DataList1.DataBind();*/
         }
-        /*
-        public DataTable baglanti()
-        {
-            string connectionString = "server=DESKTOP-P0FDTHF;database=CoiffeurAppointmentSystem;Trusted_Connection=True;";
-            SqlConnection connection = new SqlConnection(connectionString);
-            connection.Open();
-            DataTable dtCourse = new DataTable();
-            if (connection.State == ConnectionState.Open)
-            {
-                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM cas.service", connection);
 
-                adapter.Fill(dtCourse);
-            }
-            return dtCourse;
+        protected void DataList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
-        */
+        /*
+public DataTable baglanti()
+{
+   string connectionString = "server=DESKTOP-P0FDTHF;database=CoiffeurAppointmentSystem;Trusted_Connection=True;";
+   SqlConnection connection = new SqlConnection(connectionString);
+   connection.Open();
+   DataTable dtCourse = new DataTable();
+   if (connection.State == ConnectionState.Open)
+   {
+       SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM cas.service", connection);
+
+       adapter.Fill(dtCourse);
+   }
+   return dtCourse;
+}
+*/
 
     }
 }
