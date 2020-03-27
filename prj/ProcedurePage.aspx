@@ -42,8 +42,6 @@
         }
     </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
-</asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <table class="auto-style1">
         <tr>
@@ -61,10 +59,10 @@
                         <asp:CheckBox ID="CheckBox1" runat="server" />
                     </td>
                     <td class="auto-style13">
-                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="Label1" runat="server" Text='<%# Eval("service_name") %>'></asp:Label>
                     </td>
                     <td class="auto-style12">
-                        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text='<%# Eval("service_id") %>'></asp:Label>
                     </td>
                     <td>
                         <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
@@ -77,7 +75,8 @@
     <table class="auto-style16">
         <tr>
             <td class="auto-style14">&nbsp;</td>
-            <td class="auto-style15">Estimated Time: <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+            <td class="auto-style15">Estimated Time:
+                <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
             </td>
             <td>Total Price:
                 <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
