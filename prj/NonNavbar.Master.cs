@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Coiffeur_Appointment_System
 {
-    public partial class deneme1 : System.Web.UI.MasterPage
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
+	public partial class NonNavbar : System.Web.UI.MasterPage
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
 
-        }
-    }
+		}
+	}
 }

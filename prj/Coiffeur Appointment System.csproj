@@ -74,6 +74,7 @@
     <Content Include="MainCss.css" />
     <Content Include="MainPage.aspx" />
     <Content Include="ProcedurePage.aspx" />
+    <Content Include="SignUpPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +113,13 @@
     <Compile Include="MainPage.aspx.designer.cs">
       <DependentUpon>MainPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="NonNavbar.Master.cs">
+      <DependentUpon>NonNavbar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NonNavbar.Master.designer.cs">
+      <DependentUpon>NonNavbar.Master</DependentUpon>
+    </Compile>
     <Compile Include="ProcedurePage.aspx.cs">
       <DependentUpon>ProcedurePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -120,6 +128,13 @@
       <DependentUpon>ProcedurePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUpPage.aspx.cs">
+      <DependentUpon>SignUpPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUpPage.aspx.designer.cs">
+      <DependentUpon>SignUpPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -136,6 +151,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="NonNavbar.Master" />
     <None Include="packages.config" />
     <Content Include="User.Master" />
     <Content Include="UserNonFilter.Master" />
