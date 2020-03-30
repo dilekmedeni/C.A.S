@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AppointmentPage.aspx" />
+    <Content Include="CantactPage.aspx" />
     <Content Include="CommentPage.aspx" />
     <Content Include="infoPage.aspx" />
     <Content Include="MainCss.css" />
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="AppointmentPage.aspx.designer.cs">
       <DependentUpon>AppointmentPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CantactPage.aspx.cs">
+      <DependentUpon>CantactPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CantactPage.aspx.designer.cs">
+      <DependentUpon>CantactPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="CommentPage.aspx.cs">
       <DependentUpon>CommentPage.aspx</DependentUpon>
