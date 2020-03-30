@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserNonFilter.Master" AutoEventWireup="true" CodeBehind="CantactPage.aspx.cs" Inherits="Coiffeur_Appointment_System.CantactPage" %>
+﻿<%@ Page Title="Contact - C.A.S" Language="C#" MasterPageFile="~/UserNonFilter.Master" AutoEventWireup="true" CodeBehind="CantactPage.aspx.cs" Inherits="Coiffeur_Appointment_System.CantactPage" %>
 
 <asp:Content ID="Content5" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
