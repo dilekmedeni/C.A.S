@@ -80,7 +80,9 @@ create table cas.appointment(
 	appointment_id int identity(1,1) primary key,
 	appointment_date DATE not null DEFAULT(GETDATE()),
 	user_id int foreign key references cas.person(user_id),
-	wp_id int foreign key references cas.workplace(wp_id))
+	wp_id int foreign key references cas.workplace(wp_id),
+	staff_id int foreign key references cas.person(user_id),
+	work_id int foreign key references cas.work(work_id))
 
 INSERT INTO cas.gender VALUES
 ('Male'),
