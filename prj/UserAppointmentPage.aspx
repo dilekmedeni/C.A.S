@@ -1,40 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User.Master" AutoEventWireup="true" CodeBehind="UserAppointmentPage.aspx.cs" Inherits="Coiffeur_Appointment_System.UserAppointmentPage" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MemberUser.Master" AutoEventWireup="true" CodeBehind="UserAppointmentPage.aspx.cs" Inherits="Coiffeur_Appointment_System.UserAppointmentPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-        .auto-style7 {
-            font-size: 50pt;
-            font-weight: normal;
-        }
-        .auto-style8 {
-            font-size: x-large;
-        }
-        .auto-style9 {
-            font-size: medium;
-        }
-        .auto-style10 {
-            font-size: medium;
-            width: 230px;
-        }
-        .auto-style11 {
-            width: 216px;
-            font-size: medium;
-        }
-        .auto-style12 {
-            font-size: medium;
-            width: 212px;
-        }
-        .auto-style13 {
-            width: 217px;
-        }
-        .auto-style14 {
-            font-size: medium;
-            width: 336px;
-        }
-        .auto-style15 {
-            font-size: medium;
-            width: 242px;
-        }
-    </style>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1 style="margin-top:30px;" class="auto-style7">

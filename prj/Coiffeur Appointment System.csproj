@@ -76,6 +76,7 @@
     <Content Include="MemberMain.aspx" />
     <Content Include="ProcedurePage.aspx" />
     <Content Include="SignUpPage.aspx" />
+    <Content Include="UserAppointmentPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +157,13 @@
     </Compile>
     <Compile Include="User.Master.designer.cs">
       <DependentUpon>User.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserAppointmentPage.aspx.cs">
+      <DependentUpon>UserAppointmentPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserAppointmentPage.aspx.designer.cs">
+      <DependentUpon>UserAppointmentPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserNonFilter.Master.cs">
       <DependentUpon>UserNonFilter.Master</DependentUpon>
